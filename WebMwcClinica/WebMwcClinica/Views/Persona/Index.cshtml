@@ -1,0 +1,78 @@
+﻿@model IEnumerable<WebMwcClinica.Models.Persona>
+
+@{
+    ViewData["Title"] = "Listado de Usuarios";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Crear Nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PerNombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PerApellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PerDireccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PerCorreo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PerTelefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PerPhoto)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td> 
+                    @Html.DisplayFor(modelItem => item.PerId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PerNombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PerApellido)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PerDireccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PerCorreo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PerTelefono)
+                </td>
+                  <td>
+                    @Html.DisplayFor(modelItem => item.PerPhoto)
+                </td>
+                <td>
+                    @if (item.PerPhoto != null)
+                    {
+                        <img src="data:image;base64, @Convert.ToBase64String(item.PerPhoto)" width="120" height="120" />
+                    }
+
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.PerId">Editar</a> 
+                    <a asp-action="Details" asp-route-id="@item.PerId">Ver</a> 
+                    <a asp-action="Delete" asp-route-id="@item.PerId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

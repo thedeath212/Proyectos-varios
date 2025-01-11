@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gps.MainPage">
+
+    <StackLayout>
+        <Label Text="GPS" HorizontalOptions="CenterAndExpand"/>
+        <Label x:Name="Latitud"/>
+        <Label x:Name="Longitud"/>
+        <Label x:Name="Altura"/>
+        <Button x:Name="gps" Clicked="gps_Clicked" Text="Obtener Ubicación"/>
+        <Button Clicked="GuardarUbicacion_Clicked" Text="Guardar Ubicación"/>
+
+        <!-- ListView para mostrar las ubicaciones guardadas -->
+        <!-- ListView para mostrar las ubicaciones guardadas -->
+        <ListView x:Name="ubicacionesListView" VerticalOptions="FillAndExpand">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <!-- Encabezados de la tabla -->
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="Latitud" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" />
+                            <Label Text="Longitud" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" />
+                            <Label Text="Altitud" Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" />
+                            <Label Text="Nombre de la Tienda" Grid.Row="0" Grid.Column="3" HorizontalOptions="Center" />
+                            <Label Text="Fecha" Grid.Row="0" Grid.Column="4" HorizontalOptions="Center" />
+
+                            <!-- Datos de ubicaciones -->
+                            <Label Text="{Binding Latitude}" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" />
+                            <Label Text="{Binding Longitude}" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" />
+                            <Label Text="{Binding Altitude}" Grid.Row="1" Grid.Column="2" HorizontalOptions="Center" />
+                            <Label Text="{Binding NombreTienda}" Grid.Row="1" Grid.Column="3" HorizontalOptions="Center" />
+                            <Label Text="{Binding Fecha}" Grid.Row="1" Grid.Column="4" HorizontalOptions="Center" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,16 @@
+C:\Users\matei\source\repos\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.csproj.AssemblyReference.cache
+C:\Users\matei\source\repos\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.Formularios.FrmMain.resources
+C:\Users\matei\source\repos\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.Formularios.Login.resources
+C:\Users\matei\source\repos\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.csproj.GenerateResource.cache
+C:\Users\matei\source\repos\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matei\source\repos\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.AssemblyInfoInputs.cache
+C:\Users\matei\source\repos\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.AssemblyInfo.cs
+C:\Users\matei\source\repos\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\matei\source\repos\Visual\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.csproj.AssemblyReference.cache
+C:\Users\matei\source\repos\Visual\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.Formularios.FrmMain.resources
+C:\Users\matei\source\repos\Visual\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.Formularios.Login.resources
+C:\Users\matei\source\repos\Visual\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.csproj.GenerateResource.cache
+C:\Users\matei\source\repos\Visual\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matei\source\repos\Visual\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.AssemblyInfoInputs.cache
+C:\Users\matei\source\repos\Visual\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.AssemblyInfo.cs
+C:\Users\matei\source\repos\Visual\Visual_WindowsForms\obj\Debug\net6.0-windows\Visual_WindowsForms.csproj.CoreCompileInputs.cache

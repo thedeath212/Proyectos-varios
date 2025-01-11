@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovilClases.LoginPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="logo.png" HorizontalOptions="CenterAndExpand" WidthRequest="200"/>
+            <Label Text="Login"
+                   HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="Large"  />
+            <Frame Margin="5">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Row="0"
+                           Grid.Column="0"
+                           Text="Usuario"
+                           TextColor="Blue"/>
+
+                    <Entry Grid.Row="0"
+                           Grid.Column="1"
+                           x:Name="Dm_usuario"/>
+
+                    <Label Grid.Row="1"
+                           Grid.Column="0"
+                           Text="Contraseña"
+                           TextColor="Blue"/>
+
+                    <Entry Grid.Row="1"
+                           Grid.Column="1"
+                           IsPassword="True"
+                           x:Name="Dm_clave"/>
+                </Grid>
+            </Frame>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Button Text="Registrar" TextColor="White" BackgroundColor="DarkGray" CornerRadius="5" x:Name="Dm_registrar" Clicked="Dm_registrar_Clicked"/>
+                <Button Text="Iniciar Sesión" TextColor="White" BackgroundColor="DarkGray" CornerRadius="5" x:Name="Dm_login" Clicked="Dm_login_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLite.MainPage">
+
+    <StackLayout>
+        <Label Text="Registro Usuario"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"/>
+        <Entry x:Name="IdEntry" IsVisible="False"/>
+        <Entry x:Name="nombreEntry" Placeholder="Nombre"  />
+        <Entry x:Name="apellidoEntry" Placeholder="Apellido"  />
+        <Entry x:Name="emailEntry" Placeholder="Email" />
+        <Entry x:Name="contraseñaEntry" Placeholder="Contraseña"  IsPassword="True" />
+        <Entry x:Name="usuarioEntry" Placeholder="Usuario" />
+
+        
+        <Button x:Name="btnRegistrar" Text=" Registrar Usuario" Clicked="btnRegistrar_Clicked"/>
+        <Button x:Name="btnActrualizar" Text="Actualizar Usuario" Clicked="btnActrualizar_Clicked"/>
+        <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked" />
+        <ListView x:Name="lstUsuario" ItemSelected="lstUsuario_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding Id}" Grid.Row="0" Grid.Column="0"/>
+                            <Label Text="{Binding Nombre}" Grid.Row="0" Grid.Column="1"/>
+                            <Label Text="{Binding Apellido}" Grid.Row="0" Grid.Column="2"/>
+                            <Label Text="{Binding Email}" Grid.Row="0" Grid.Column="3"/>
+                            <Label Text="{Binding Contraseña}" Grid.Row="0" Grid.Column="4"/>
+                            <Label Text="{Binding User}" Grid.Row="0" Grid.Column="5"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,54 @@
+﻿@model IEnumerable<WebMwcClinica.Models.Especialidad>
+
+@{
+    ViewData["Title"] = "Catalogo";
+}
+
+<style>
+    .card {
+        border: 1px solid black;
+    }
+</style>
+
+<h1>Catalogo</h1>
+<p>
+    <a asp-action="Create">Crear nuevo</a>
+</p>
+
+@if (Model != null && Model.Any())
+{
+    @for (int i = 0; i < Model.Count(); i += 3)
+    {
+        <div class="row">
+            @foreach (var especialidad in Model.Skip(i).Take(3))
+            {
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        @if (especialidad.EspImag != null && especialidad.EspImag.Length > 0)
+                        {
+                            <img src="data:image;base64, @Convert.ToBase64String(especialidad.EspImag)" class="card-img-top" alt="Card image" width="120" height="120" />
+                        }
+                        <div class="card-body">
+                            <h5 class="card-title">@especialidad.EspDescripcion</h5>
+                            <p class="card-text">@especialidad.EspObservacion</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        @if (i + 3 < Model.Count())
+        {
+            <div class="row mt-4"></div> <!-- Agregar fila vacía con margen top de 4 -->
+        }
+    }
+}
+else
+{
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">No data available.</p>
+            </div>
+        </div>
+    </div>
+}

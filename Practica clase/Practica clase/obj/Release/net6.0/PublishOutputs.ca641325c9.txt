@@ -1,0 +1,7 @@
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Release\net6.0\PubTmp\Out\Practica clase.exe
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Release\net6.0\PubTmp\Out\Practica clase.dll
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Release\net6.0\PubTmp\Out\Practica clase.deps.json
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Release\net6.0\PubTmp\Out\Practica clase.runtimeconfig.json
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Release\net6.0\PubTmp\Out\Practica clase.pdb

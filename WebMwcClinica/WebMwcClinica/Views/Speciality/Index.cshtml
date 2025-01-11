@@ -1,0 +1,75 @@
+﻿@model IEnumerable<WebMwcClinica.Models.Especialidad>
+
+@{
+    ViewData["Title"] = "Especialidad";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Crear nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EspId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EspDescripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EspEstado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EspAdd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EspUpdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EspDelete)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EspImag)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EspId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EspDescripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EspEstado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EspAdd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EspUpdate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EspDelete)
+                </td>
+                <td>
+                    @if (item.EspImag != null)
+                    {
+                        <img src="data:image;base64, @Convert.ToBase64String(item.EspImag)" width="120" height="120" />
+                    }
+
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.EspId">Ver</a> |
+                    <a asp-action="Edit" asp-route-id="@item.EspId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.EspId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

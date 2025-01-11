@@ -1,0 +1,30 @@
+C:\Users\matei\source\repos\Practica clase\Practica clase\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\matei\source\repos\Practica clase\Practica clase\bin\Debug\net6.0\appsettings.json
+C:\Users\matei\source\repos\Practica clase\Practica clase\bin\Debug\net6.0\Practica clase.staticwebassets.runtime.json
+C:\Users\matei\source\repos\Practica clase\Practica clase\bin\Debug\net6.0\Practica clase.exe
+C:\Users\matei\source\repos\Practica clase\Practica clase\bin\Debug\net6.0\Practica clase.deps.json
+C:\Users\matei\source\repos\Practica clase\Practica clase\bin\Debug\net6.0\Practica clase.runtimeconfig.json
+C:\Users\matei\source\repos\Practica clase\Practica clase\bin\Debug\net6.0\Practica clase.dll
+C:\Users\matei\source\repos\Practica clase\Practica clase\bin\Debug\net6.0\Practica clase.pdb
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\Practica clase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\Practica clase.AssemblyInfoInputs.cache
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\Practica clase.AssemblyInfo.cs
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\Practica clase.csproj.CoreCompileInputs.cache
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\Practica clase.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\Practica clase.RazorAssemblyInfo.cache
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\Practica clase.RazorAssemblyInfo.cs
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\staticwebassets\msbuild.Practica clase.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\staticwebassets\msbuild.build.Practica clase.props
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Practica clase.props
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Practica clase.props
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\scopedcss\bundle\Practica clase.styles.css
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\scopedcss\projectbundle\Practica clase.bundle.scp.css
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\Practica clase.dll
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\refint\Practica clase.dll
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\Practica clase.pdb
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\Practica clase.genruntimeconfig.cache
+C:\Users\matei\source\repos\Practica clase\Practica clase\obj\Debug\net6.0\ref\Practica clase.dll

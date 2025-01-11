@@ -1,0 +1,10 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gps.LoginPage">
+    <StackLayout>
+        <Entry Placeholder="Usuario" x:Name="UsernameEntry" />
+        <Entry Placeholder="Contraseña" IsPassword="True" x:Name="PasswordEntry" />
+        <Button Text="Iniciar Sesión" Clicked="LoginButton_Clicked" />
+        <Button Text="Crear Cuenta" Clicked="Button_Clicked" />
+    </StackLayout>
+</ContentPage>

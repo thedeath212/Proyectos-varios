@@ -1,0 +1,16 @@
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\bin\Debug\netstandard2.0\SQLite.deps.json
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\bin\Debug\netstandard2.0\SQLite.dll
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\bin\Debug\netstandard2.0\ref\SQLite.dll
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\bin\Debug\netstandard2.0\SQLite.pdb
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\obj\Debug\netstandard2.0\SQLite.csproj.AssemblyReference.cache
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\obj\Debug\netstandard2.0\SQLite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\obj\Debug\netstandard2.0\SQLite.AssemblyInfoInputs.cache
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\obj\Debug\netstandard2.0\SQLite.AssemblyInfo.cs
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\obj\Debug\netstandard2.0\SQLite.csproj.CoreCompileInputs.cache
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\obj\Debug\netstandard2.0\SQLite.dll
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\obj\Debug\netstandard2.0\refint\SQLite.dll
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\obj\Debug\netstandard2.0\SQLite.pdb
+C:\Users\matei\source\repos\SQLite\SQLite\SQLite\obj\Debug\netstandard2.0\Login.xaml.g.cs

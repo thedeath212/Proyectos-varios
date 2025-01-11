@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gps.RegistroPage">
+
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label Text="Registro de Usuario" HorizontalOptions="CenterAndExpand" Margin="0,20,0,10" />
+
+            <Entry x:Name="UsernameEntry" Placeholder="Nombre de Usuario" Margin="0,0,0,10" />
+            <Entry x:Name="PasswordEntry" Placeholder="Contraseña" IsPassword="True" Margin="0,0,0,10" />
+
+            <Button Text="Registrar" Clicked="RegisterButton_Clicked" HorizontalOptions="FillAndExpand" />
+
+            <ActivityIndicator x:Name="ActivityIndicator" IsRunning="False" IsVisible="False" Color="Green" VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

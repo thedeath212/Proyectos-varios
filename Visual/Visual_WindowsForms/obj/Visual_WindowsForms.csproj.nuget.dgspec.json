@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\matei\\source\\repos\\Visual\\Visual_WindowsForms\\Visual_WindowsForms.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\matei\\source\\repos\\VisualExamen\\VisualExamen.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\matei\\source\\repos\\VisualExamen\\VisualExamen.csproj",
+        "projectName": "VisualExamen",
+        "projectPath": "C:\\Users\\matei\\source\\repos\\VisualExamen\\VisualExamen.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\matei\\source\\repos\\Visual\\Visual_Logica\\Visual_Logica.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\matei\\source\\repos\\Visual\\Visual_Logica\\Visual_Logica.csproj",
+        "projectName": "Visual_Logica",
+        "projectPath": "C:\\Users\\matei\\source\\repos\\Visual\\Visual_Logica\\Visual_Logica.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\matei\\source\\repos\\Visual\\Visual_WindowsForms\\Visual_WindowsForms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\matei\\source\\repos\\Visual\\Visual_WindowsForms\\Visual_WindowsForms.csproj",
+        "projectName": "Visual_WindowsForms",
+        "projectPath": "C:\\Users\\matei\\source\\repos\\Visual\\Visual_WindowsForms\\Visual_WindowsForms.csproj",
+        "packagesPath": "C:\\Users\\matei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matei\\source\\repos\\Visual\\Visual_WindowsForms\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\matei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\matei\\source\\repos\\VisualExamen\\VisualExamen.csproj": {
+                "projectPath": "C:\\Users\\matei\\source\\repos\\VisualExamen\\VisualExamen.csproj"
+              },
+              "C:\\Users\\matei\\source\\repos\\Visual\\Visual_Logica\\Visual_Logica.csproj": {
+                "projectPath": "C:\\Users\\matei\\source\\repos\\Visual\\Visual_Logica\\Visual_Logica.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "netstandard-System.Data.Linq": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

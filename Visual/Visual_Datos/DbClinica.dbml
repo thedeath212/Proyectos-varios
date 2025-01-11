@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BDClinica" Class="DbClinicaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.Auditoria" Member="Auditoria">
+    <Type Name="Auditoria">
+      <Column Name="Audi_Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Audi_Fecha" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Audi_Usuario" Type="System.String" DbType="NChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Audi_Tipo" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="Audi_CodigoRegistro" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Audi_Estado" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="User">
+    <Type Name="User">
+      <Column Name="usu_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="usu_username" Type="System.String" DbType="NChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="usu_password" Type="System.String" DbType="NChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="usu_name" Type="System.String" DbType="NChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="usu_lastname" Type="System.String" DbType="NChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="usu_status" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="usu_add" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="usu_update" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="usu_delete" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="rol_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="usu_email" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+      <Column Name="usu_sueldo" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="usu_intentos" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Rol_User" Member="Rol" ThisKey="rol_id" OtherKey="rol_id" Type="Rol" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Rol" Member="Rol">
+    <Type Name="Rol">
+      <Column Name="rol_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="rol_description" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="rol_status" Type="System.Char" DbType="NChar(1) NOT NULL" CanBeNull="false" />
+      <Association Name="Rol_User" Member="User" ThisKey="rol_id" OtherKey="rol_id" Type="User" />
+    </Type>
+  </Table>
+  <Function Name="dbo.updateUser" Method="updateUser">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="username" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="password" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="name" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="lastname" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="email" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="rol" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.AumentarSueldo" Method="AumentarSueldo">
+    <Parameter Name="UsuID" Parameter="usuID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PorcentajeAumento" Parameter="porcentajeAumento" Type="System.Decimal" DbType="Decimal(5,2)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

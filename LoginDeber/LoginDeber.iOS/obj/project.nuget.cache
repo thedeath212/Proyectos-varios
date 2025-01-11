@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GqY8V7mhCRV7nhX/er3pJZSb/3l9u/v4pI1EeYa+UNfDtnA3nMOFMCcoy6BLPZlAuLYpJMpqTp3at+n94evTAQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matei\\source\\repos\\LoginDeber\\LoginDeber.iOS\\LoginDeber.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matei\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

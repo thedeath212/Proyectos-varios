@@ -1,0 +1,26 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Huella.MainPage">
+    <StackLayout VerticalOptions="CenterAndExpand" Padding="20">
+        <!-- Entrada de nombre de usuario -->
+        <Image Source="icono_login.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="0,0,5,0" HeightRequest="200"/>
+
+        <!-- Salto de línea -->
+        <BoxView HeightRequest="20" />
+
+        <Entry x:Name="UsernameEntry" Placeholder="Nombre de usuario" HorizontalOptions="FillAndExpand"/>
+        <Entry x:Name="PasswordEntry" Placeholder="Contraseña" IsPassword="True" HorizontalOptions="FillAndExpand"/>
+        <Button Text="Iniciar sesión" Clicked="LoginButtonClicked" HorizontalOptions="FillAndExpand" Margin="0,10,0,0"/>
+
+        <Frame HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+               BorderColor="LightGray" Padding="10" Margin="0,20,0,0">
+            <Image Source="fingerprint.jpg" HorizontalOptions="Center" HeightRequest="100" Aspect="AspectFit">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="FingerprintIconTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </Frame>
+        <Label x:Name="LblStatus" Text="" HorizontalOptions="Center" FontSize="Large" TextColor="Black"/>
+        <Label x:Name="LblAutentificate" HorizontalOptions="Center" VerticalOptions="Center"/>
+    </StackLayout>
+</ContentPage>

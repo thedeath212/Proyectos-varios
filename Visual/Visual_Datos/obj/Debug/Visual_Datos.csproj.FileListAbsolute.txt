@@ -1,0 +1,2 @@
+C:\Users\matei\source\repos\Visual_Datos\obj\Debug\Visual_Datos.csproj.AssemblyReference.cache
+C:\Users\matei\source\repos\Visual_Datos\obj\Debug\Visual_Datos.csproj.CoreCompileInputs.cache

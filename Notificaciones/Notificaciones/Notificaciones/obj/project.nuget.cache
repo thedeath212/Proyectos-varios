@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qpw6MAgjXxboTXAZGMoq4mQnJE4+oEwIcAg+2HTPuWLVsez6cl0w82mgEk9iCYQ0/B8dC+7cknk0M5wZjl16LQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matei\\source\\repos\\Notificaciones\\Notificaciones\\Notificaciones\\Notificaciones.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matei\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\xam.plugins.notifier\\3.0.1\\xam.plugins.notifier.3.0.1.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

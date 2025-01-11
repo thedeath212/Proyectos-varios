@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Repaso.AgregarUsuario">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Agregar Nuevo Usuario"
+                   HorizontalOptions="CenterAndExpand" />
+
+            <Entry Placeholder="Nombre" x:Name="NombreEntry" />
+            <Entry Placeholder="Apellido" x:Name="ApellidoEntry" />
+            <Entry Placeholder="Dirección" x:Name="DireccionEntry" />
+            <Entry Placeholder="Teléfono" x:Name="TelefonoEntry" />
+
+            <Button Text="Guardar Usuario"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="GuardarUsuario_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

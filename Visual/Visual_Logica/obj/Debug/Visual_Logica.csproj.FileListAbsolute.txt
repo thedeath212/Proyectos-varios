@@ -1,0 +1,4 @@
+C:\Users\matei\source\repos\Visual_Logica\obj\Debug\Visual_Logica.csproj.AssemblyReference.cache
+C:\Users\matei\source\repos\Visual_Logica\obj\Debug\Visual_Logica.csproj.CoreCompileInputs.cache
+C:\Users\matei\source\repos\Visual\Visual_Logica\obj\Debug\Visual_Logica.csproj.AssemblyReference.cache
+C:\Users\matei\source\repos\Visual\Visual_Logica\obj\Debug\Visual_Logica.csproj.CoreCompileInputs.cache

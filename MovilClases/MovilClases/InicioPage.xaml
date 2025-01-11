@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovilClases.InicioPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="INGRESE SU EDAD"/>
+            <Entry x:Name="txt_edad" Text="Ingresa tu edad" HorizontalOptions="Center"/>
+            <Button Padding="10" Text="Calcular" x:Name="btn_calcular" Clicked="btn_calcular_Clicked" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>iv

@@ -1,0 +1,11 @@
+C:\Users\matei\source\repos\Visual1\obj\Debug\Visual1.csproj.AssemblyReference.cache
+C:\Users\matei\source\repos\Visual1\obj\Debug\Visual1.csproj.CoreCompileInputs.cache
+C:\Users\matei\source\repos\Visual1\bin\Debug\Visual1.exe.config
+C:\Users\matei\source\repos\Visual1\bin\Debug\Visual1.exe
+C:\Users\matei\source\repos\Visual1\bin\Debug\Visual1.pdb
+C:\Users\matei\source\repos\Visual1\obj\Debug\Visual1.exe
+C:\Users\matei\source\repos\Visual1\obj\Debug\Visual1.pdb
+C:\Users\matei\source\repos\Visual1\bin\Debug\Visual_Datos.dll
+C:\Users\matei\source\repos\Visual1\bin\Debug\Visual_Datos.pdb
+C:\Users\matei\source\repos\Visual1\bin\Debug\Visual_Datos.dll.config
+C:\Users\matei\source\repos\Visual1\obj\Debug\Visual1.csproj.CopyComplete

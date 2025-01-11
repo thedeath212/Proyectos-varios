@@ -1,0 +1,7 @@
+C:\Users\matei\source\repos\WebMultiTrabajos\WebMultiTrabajos\obj\Release\net6.0\PubTmp\Out\WebMultiTrabajos.exe
+C:\Users\matei\source\repos\WebMultiTrabajos\WebMultiTrabajos\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\matei\source\repos\WebMultiTrabajos\WebMultiTrabajos\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\matei\source\repos\WebMultiTrabajos\WebMultiTrabajos\obj\Release\net6.0\PubTmp\Out\WebMultiTrabajos.dll
+C:\Users\matei\source\repos\WebMultiTrabajos\WebMultiTrabajos\obj\Release\net6.0\PubTmp\Out\WebMultiTrabajos.deps.json
+C:\Users\matei\source\repos\WebMultiTrabajos\WebMultiTrabajos\obj\Release\net6.0\PubTmp\Out\WebMultiTrabajos.runtimeconfig.json
+C:\Users\matei\source\repos\WebMultiTrabajos\WebMultiTrabajos\obj\Release\net6.0\PubTmp\Out\WebMultiTrabajos.pdb

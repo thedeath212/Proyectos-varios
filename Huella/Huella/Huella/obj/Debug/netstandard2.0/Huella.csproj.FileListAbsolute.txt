@@ -1,0 +1,16 @@
+C:\Users\matei\source\repos\Huella\Huella\Huella\bin\Debug\netstandard2.0\Huella.deps.json
+C:\Users\matei\source\repos\Huella\Huella\Huella\bin\Debug\netstandard2.0\Huella.dll
+C:\Users\matei\source\repos\Huella\Huella\Huella\bin\Debug\netstandard2.0\ref\Huella.dll
+C:\Users\matei\source\repos\Huella\Huella\Huella\bin\Debug\netstandard2.0\Huella.pdb
+C:\Users\matei\source\repos\Huella\Huella\Huella\obj\Debug\netstandard2.0\Huella.csproj.AssemblyReference.cache
+C:\Users\matei\source\repos\Huella\Huella\Huella\obj\Debug\netstandard2.0\Huella.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matei\source\repos\Huella\Huella\Huella\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\matei\source\repos\Huella\Huella\Huella\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\matei\source\repos\Huella\Huella\Huella\obj\Debug\netstandard2.0\Huella.AssemblyInfoInputs.cache
+C:\Users\matei\source\repos\Huella\Huella\Huella\obj\Debug\netstandard2.0\Huella.AssemblyInfo.cs
+C:\Users\matei\source\repos\Huella\Huella\Huella\obj\Debug\netstandard2.0\Huella.csproj.CoreCompileInputs.cache
+C:\Users\matei\source\repos\Huella\Huella\Huella\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\matei\source\repos\Huella\Huella\Huella\obj\Debug\netstandard2.0\Huella.dll
+C:\Users\matei\source\repos\Huella\Huella\Huella\obj\Debug\netstandard2.0\refint\Huella.dll
+C:\Users\matei\source\repos\Huella\Huella\Huella\obj\Debug\netstandard2.0\Huella.pdb
+C:\Users\matei\source\repos\Huella\Huella\Huella\obj\Debug\netstandard2.0\Page1.xaml.g.cs

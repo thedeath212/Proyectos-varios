@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WSPI.View.LoginPage"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}">
+    <ContentPage.Content>
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Image Grid.Row="0" Margin="0,30" Source="cirujano.png" Aspect="AspectFit" HeightRequest="180" WidthRequest="80"></Image>
+
+            <Frame Grid.Row="1" Margin="0,0,0,-40" BorderColor="#87CEEB" HasShadow="True" CornerRadius="50" HeightRequest="700">
+                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="20" Padding="20,50,20,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+
+                    <Label Grid.Row="0" Text="¡Bienvenido al Sistema de Citas Médicas!" FontSize="24" FontAttributes="Bold" TextColor="#1C375C" HorizontalOptions="CenterAndExpand"></Label>
+                    <Label Grid.Row="1" Margin="0,-15,0,0" Text="Iniciar sesión en tu cuenta" TextColor="#1C375C" HorizontalOptions="CenterAndExpand"></Label>
+                    <Entry Grid.Row="2" Placeholder="Usuario" Margin="0,20,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Text="{Binding NombreUsuario ,Mode=TwoWay}" x:Name="Txt_usuario"/>
+                    <Entry Grid.Row="3" Placeholder="Contraseña" IsPassword="True" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Text="{Binding Contraseña , Mode=TwoWay}" x:Name="Txt_pass" />
+
+
+                    <ActivityIndicator IsRunning ="{Binding IsRunning}" />
+                    
+                    <Button Grid.Row="4" Text="Iniciar Sesión" BackgroundColor="#87CEEB" CornerRadius="20" Command="{Binding IniciarSesionCommand}" />
+
+                    <Label Grid.Row="7" Text="¿Olvidaste tu contraseña?" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"></Label>
+
+                    <Button Grid.Row="8" Text="Regístrate" BackgroundColor="#87CEEB" CornerRadius="20" Command="{Binding RegistrarCommand}" />
+
+                </Grid>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "bxMjSKU0VN1IPWFyEaMzWRyQ8Ab/xOMRiD8Nq9akMTSKSqHi82fOjNpBNlFC1rrFHpGj8GOW1B5qg96xbyk8fg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matei\\source\\repos\\Notificaciones\\Notificaciones\\Notificaciones.iOS\\Notificaciones.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matei\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\xam.plugins.notifier\\3.0.1\\xam.plugins.notifier.3.0.1.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

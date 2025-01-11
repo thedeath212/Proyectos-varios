@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginDeber.Login">
+    <ContentPage.Content>
+        <RelativeLayout>
+            <StackLayout BackgroundColor="White" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}" RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}">
+                <Label Text="" />
+                <Label Text="" />
+                <Label Text="" />
+                <Label Text="" />
+                <Label Text="" />
+                <Image Source="logologin.png" 
+                   HorizontalOptions="CenterAndExpand" WidthRequest="100"/>
+            </StackLayout>
+
+            <Frame 
+                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.8}"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.4}"
+               CornerRadius="50" 
+               HasShadow="False" 
+               BackgroundColor="SkyBlue"
+               BorderColor="Black"
+                Margin="5">
+                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TranslationY="-20">
+                    <Label Text="¡Hola Bienvenido!" FontSize="25" TextColor="White"/>
+                    <Label Text="Inicia sesión para seguir adelante" FontSize="25" TextColor="White"/>
+                    <Label Text="" />
+                    <Label Text="" />
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Row="0"
+                             Grid.Column="0"
+                             Text="Usuario"
+                             TextColor="White"
+                             FontSize="18" />
+                        <Entry Grid.Row="0"
+                               Grid.Column="1"
+                               x:Name="Dm_usuario"
+                               TextColor="White"/>
+                        <Label Grid.Row="1"
+                               Grid.Column="0"
+                               Text="Contraseña"
+                               TextColor="White"
+                               FontSize="18"/> 
+                        <Entry Grid.Row="1"
+                               Grid.Column="1"
+                               IsPassword="True"
+                               x:Name="Dm_clave"
+                               TextColor="White"/>
+                    </Grid>
+                    <Label Text="" />
+                    <Label Text="" />
+                    <Grid HorizontalOptions="CenterAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Button Grid.Column="0" Text="Iniciar Sesión" BackgroundColor="Black" TextColor="White" Clicked="Dm_login_Clicked"/>
+                        <Button Grid.Column="1" Text="Registro" BackgroundColor="Black" TextColor="White"  Clicked="Dm_registrar_Clicked"/>
+                    </Grid>
+                    <Label Text="" />
+                    <Label Text="" />
+                    <Label Text="" />
+                </StackLayout>
+            </Frame>
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>

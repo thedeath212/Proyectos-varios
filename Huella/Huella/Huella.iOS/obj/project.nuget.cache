@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "yXxpXV+gq+zlCUWb3Y/pw62uDjAQlOSUcxijQLaUCqLzJJqy6XZF9Xv1skA+383+CAlbIeKZFpkbeHTJli6Miw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matei\\source\\repos\\Huella\\Huella\\Huella.iOS\\Huella.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matei\\.nuget\\packages\\plugin.fingerprint\\2.1.5\\plugin.fingerprint.2.1.5.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\matei\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

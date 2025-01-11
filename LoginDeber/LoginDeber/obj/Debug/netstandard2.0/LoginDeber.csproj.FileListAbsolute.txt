@@ -1,0 +1,16 @@
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\bin\Debug\netstandard2.0\LoginDeber.deps.json
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\bin\Debug\netstandard2.0\LoginDeber.dll
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\bin\Debug\netstandard2.0\ref\LoginDeber.dll
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\bin\Debug\netstandard2.0\LoginDeber.pdb
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\obj\Debug\netstandard2.0\LoginDeber.csproj.AssemblyReference.cache
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\obj\Debug\netstandard2.0\LoginDeber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\obj\Debug\netstandard2.0\LoginDeber.AssemblyInfoInputs.cache
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\obj\Debug\netstandard2.0\LoginDeber.AssemblyInfo.cs
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\obj\Debug\netstandard2.0\LoginDeber.csproj.CoreCompileInputs.cache
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\obj\Debug\netstandard2.0\LoginDeber.dll
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\obj\Debug\netstandard2.0\refint\LoginDeber.dll
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\obj\Debug\netstandard2.0\LoginDeber.pdb
+C:\Users\matei\source\repos\LoginDeber\LoginDeber\obj\Debug\netstandard2.0\App.xaml.g.cs
